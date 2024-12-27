@@ -1,0 +1,24 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;  
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center; 
+    align-items: center; 
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
