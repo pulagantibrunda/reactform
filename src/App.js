@@ -11,15 +11,17 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
-    <Header />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/Products' element={<Products />} />
-      <Route path='/:categoryId' element={<CategoryPage />} />
-      <Route path='/product/:id' element={<ProductDetails />} />
-   
-    </Routes>
-<Footer/>
+      {/* <BrowserRouter basename="/reactform"> */}
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Products' element={<Products />} />
+          <Route path='/:categoryId' element={<CategoryPage />} />
+          <Route path='/product/:id' element={<ProductDetails />} />
+
+        </Routes>
+        <Footer />
+      {/* </BrowserRouter> */}
     </>
   );
 }
